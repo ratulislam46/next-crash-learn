@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased p-4`}
       >
         <nav>
-          <ul className="flex gap-6">
+          <ul className="flex gap-6 border-b">
             <li><Link href='/'>Home</Link></li>
             <li><Link href='/about'>About</Link></li>
           </ul>
