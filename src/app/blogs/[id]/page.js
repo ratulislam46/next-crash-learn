@@ -1,8 +1,8 @@
 import { notFound } from 'next/navigation';
 import React from 'react';
 
-const SignleBlog = ({ params }) => {
-    const { id } = params;
+const SignleBlog = async ({ params }) => {
+    const { id } = await params;
 
     if (id === '3') {
         notFound();
