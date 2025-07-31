@@ -14,7 +14,7 @@ const AllPosts = async () => {
                     <Link key={post.id}
                         href={`/posts/${post.id}`}>
                         <li
-                            className='py-2 px-3 rounded-md mb-3 border border-gray-900'
+                            className='py-2 px-3 rounded-md mb-3 border border-gray-900 hover:bg-white hover:text-gray-900'
                         >
                             {post.title}
                         </li>
