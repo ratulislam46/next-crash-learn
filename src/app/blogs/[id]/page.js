@@ -4,7 +4,7 @@ import React from 'react';
 const SignleBlog = ({ params }) => {
     const { id } = params;
 
-    if (id == '3') {
+    if (id === '3') {
         notFound();
     }
 
