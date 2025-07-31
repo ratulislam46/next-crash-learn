@@ -4,7 +4,7 @@ import nature from '@/public/images/nature.jpg'
 
 
 export const metadata = {
-    title: "About",
+    title: "Learn Next JS | About",
     description: "Mission, vission, fission routes here",
 };
 
