@@ -28,7 +28,7 @@ const SinglePost = async ({ params }) => {
             <p> {post.body} </p>
 
             <div className='mt-6'>
-                <Suspense>
+                <Suspense fallback="<p>Loading post comments ....</p>">
                     <Comments commentPromise={commentPromise}></Comments>
                 </Suspense>
             </div>
